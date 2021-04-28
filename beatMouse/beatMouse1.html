@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>打地鼠游戏</title>
+    <link rel="stylesheet" href="./css/style1.css">
+</head>
+
+<body>
+    <div class="box">
+        <div id="head">
+            剩余<input class="head" type="text" value="30" id="timeInp">秒
+            命中<input class="head" type="text" value="0" id="countInp">个
+            得分<input class="head" type="text" value="0" id="scoreInp">分
+        </div>
+        <br>
+        <table id="table" ce>
+            <tr>
+                <td class="demo"><img src="./images/mouse.png" alt=""></td>
+                <td class="demo"><img src="./images/mouse.png" alt=""></td>
+                <td class="demo"><img src="./images/mouse.png" alt=""></td>
+                <td class="demo"><img src="./images/mouse.png" alt=""></td>
+            </tr>
+            <tr>
+                <td class="demo"><img src="./images/mouse.png" alt=""></td>
+                <td class="demo"><img src="./images/mouse.png" alt=""></td>
+                <td class="demo"><img src="./images/mouse.png" alt=""></td>
+                <td class="demo"><img src="./images/mouse.png" alt=""></td>
+            </tr>
+            <tr>
+                <td class="demo"><img src="./images/mouse.png" alt=""></td>
+                <td class="demo"><img src="./images/mouse.png" alt=""></td>
+                <td class="demo"><img src="./images/mouse.png" alt=""></td>
+                <td class="demo"><img src="./images/mouse.png" alt=""></td>
+            <tr>
+                <td class="demo"><img src="./images/mouse.png" alt=""></td>
+                <td class="demo"><img src="./images/mouse.png" alt=""></td>
+                <td class="demo"><img src="./images/mouse.png" alt=""></td>
+                <td class="demo"><img src="./images/mouse.png" alt=""></td>
+            </tr>
+        </table>
+        <p>
+            <input id="begin" type="button" value="START">
+        </p>
+        <div class="msg0" id="msg0">Ready GO！</div>
+        <div class="msg" id="msg">Game Over！共计得分：<span id="msg_score">0</span></div>
+    </div>
+    <!-- <canvas class="fireworks" style="position:fixed;left:0;top:0;z-index:99999999;pointer-events:none;"></canvas> -->
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

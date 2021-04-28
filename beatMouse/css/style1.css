@@ -1,0 +1,156 @@
+.box {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+#head {
+    background-color: rgb(60, 215, 253);
+}
+
+.head {
+    background-color: rgb(60, 215, 253);
+    border: unset;
+    color: rgb(228, 23, 228);
+}
+
+table {
+    border: 10px solid white;
+    margin: auto;
+    /* background-color: rgb(207, 229, 253); */
+}
+
+tr{
+    display: block;
+    margin: 10px;
+}
+
+input {
+    width: 50px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 5px;
+}
+
+/* #begin{
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    
+} */
+
+.demo{
+    border: 10px;
+    /* 边框 */
+    border-radius: 10px;
+    /*圆角边框*/
+    /* outline: unset; */
+    /* 轮廓 */
+    /* position: relative;
+     定位 */
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(27, 159, 192, 0.945);
+    /* display: block; */
+    padding: 10px;
+    /*内边距*/
+    box-shadow: 0px 9px 0px rgb(5, 176, 219), 0px 10px 20px rgba(0,0,0,.7);
+    /*加阴影*/
+    margin: 10px;
+    /* 外边距 */
+    width: 100px;
+    height: 100px;
+    /* display: inline-block; */
+}
+
+.demo:active {
+    border: unset;
+    outline: unset;
+    box-shadow: 0px 5px 0px rgb(5, 176, 219), 0px 3px 6px rgba(0, 0, 0, .9);
+    position: relative;
+    top: 6px;
+}
+
+#begin {
+    border: unset;
+    outline: unset;
+    position: relative;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    background-color: rgb(27, 159, 192);
+    font-family: 'Yanone Kaffeesatz';
+    font-weight: 500;
+    font-size: 1.5em;
+    display: block;
+    padding: 4px;
+    /* -webkit-border-radius: 8px;
+    -moz-border-radius: 8px; */
+    border-radius: 8px;
+    /* -webkit-box-shadow: 0px 9px 0px rgb(5, 176, 219), 0px 9px 25px rgba(0, 0, 0, .7); */
+    /* -moz-box-shadow: 0px 9px 0px rgb(5, 176, 219), 0px 9px 25px rgba(0, 0, 0, .7); */
+    box-shadow: 0px 9px 0px rgb(5, 176, 219), 0px 9px 25px rgba(0, 0, 0, .7);
+    margin: 20px auto;
+    width: 200px;
+    text-align: center;
+    /* -webkit-transition: all .1s ease; */
+    /* -moz-transition: all .1s ease; */
+    /* -ms-transition: all .1s ease; */
+    /* /-o-transition: all .1s ease; */
+    /* transition: all .1s ease; */
+}
+
+#begin:active {
+    border: unset;
+    outline: unset;
+    /* -webkit-box-shadow: 0px 3px 0px rgb(5, 176, 219), 0px 3px 6px rgba(0, 0, 0, .9); */
+    /* -moz-box-shadow: 0px 3px 0px rgb(5, 176, 219), 0px 3px 6px rgba(0, 0, 0, .9); */
+    box-shadow: 0px 3px 0px rgb(5, 176, 219), 0px 3px 6px rgba(0, 0, 0, .9);
+    position: relative;
+    top: 6px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#table:hover {
+    cursor: url("../images/hammer.png"), auto;
+}
+
+#table:active {
+    cursor: url("../images/hammer1.png"), auto;
+}
+
+.msg0 {
+    display: none;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    left: 0%;
+    top: 200px;
+    text-align: center;
+    border: 2px solid black;
+    background: rgb(255, 255, 255);
+    font-size: 30px;
+    line-height: 100px;
+    color:rgb(230, 113, 113);
+}
+
+.msg {
+    display: none;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    left: 0%;
+    top: 200px;
+    text-align: center;
+    border: 2px solid black;
+    background: rgb(255, 255, 255);
+    font-size: 30px;
+    line-height: 100px;
+    color: rgb(230, 113, 113);
+}
